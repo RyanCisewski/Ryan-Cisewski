@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    
+}
+h1, h2, ul, p {
+	
+}
+h1 {
+	
+}
+h2 {
+
+}
+li {
+	margin: 5px 0;
+    
+}
+a {
+	color: orange;
+    font-weight: bold;
+}
+a:hover {
+  color: green;
+}
+img {
+  float: left;
+}
+#First {
+  text-indent: 25px;
+  font-size: 225%;
+  color: orange;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+#Second {
+  text-indent: 25px;
+  font-size: 125%;
+}
+#Welcome::first-letter {
+  font-size: 200%;
+}
+#Welcome {
+  font-size: 150%;
+}
+footer {
+  text-align: center;
+    font-size: 75%;
+}
