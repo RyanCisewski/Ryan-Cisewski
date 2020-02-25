@@ -1,0 +1,246 @@
+body {
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    border-style: solid;
+    box-shadow: 10px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    
+    background-repeat: repeat;  
+    margin:0px;
+    
+    
+}
+aside { width: 200px;
+    float: left; 
+    min-height:650px;
+}
+h3 {
+	padding:10px;
+}
+h2 {
+	padding:10px;
+}
+p {
+padding:10px;
+}
+li {
+	margin: 5px 0;
+}
+html { height: 100%;
+    background-image: url("bats.gif");
+}
+.catlink a {
+	color: orange;
+    font-weight: bold;
+}
+a:hover {
+  color: green;
+}
+#First {
+  text-indent: 25px;
+  font-size: 225%;
+
+}
+#Second {
+  text-indent: 100px;
+  font-size: 125%;
+}
+#Welcome::first-letter {
+  font-size: 200%;
+    
+}
+#Welcome {
+  font-size: 150%;
+    padding:10px;
+}
+header {
+    border-bottom: 2px solid black;
+ background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(218,143,0,1) 88%, rgba(45,43,43,1) 100%);
+    float:right;
+    width:100%;
+
+}
+footer {
+  text-align: center;
+    font-size: 75%;
+  border-top: 2px solid black;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,193,77,1) 85%, rgba(255,255,255,1) 100%);
+    height: 35px
+}
+#pumpkin {
+  float: left;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.navigationmenu {
+  width: 300px;
+}
+
+.navigationmenu a {
+  background-color: orange;
+  color: black;
+  margin-bottom: .5em;
+  margin-right: 7.5em;
+  padding: 12px;
+  border: 2px solid black;
+      
+}
+
+.navigationmenu a:hover {
+  background-color: #ccc;
+}
+
+.navigationmenu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.navigationmenu ul li a {
+     text-decoration: none;
+    display: block;
+}
+.navigationmenu ul {
+    list-style-type: none;
+}
+
+
+.horizontalmenu {
+    width: 100%;
+}
+.horizontalmenu a {
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+.horizontalmenu a:hover {
+    background-color: gray;
+}
+.horizontalmenu a:active {
+    color: orange;
+}
+
+.horizontalmenu ul li:hover ul li {
+    display: block;
+}
+
+.horizontalmenu ul li ul li {
+    margin-left: inherit;
+    
+    position: relative;
+}
+.horizontalmenu ul li ul li a{
+    
+}
+.horizontalmenu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative; 
+}
+
+.horizontalmenu ul li a {
+    
+    text-decoration: none;
+    display: block;
+}
+
+
+.horizontalmenu ul li {
+    float: left;
+    position: relative;
+}
+
+.horizontalmenu ul li ul li a:hover {
+    background-color: gray;
+}
+
+.horizontalmenu ul ul li {
+    float: none;
+}
+.horizontalmenu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.horizontalmenu ul li:hover > ul {
+    display: block;
+}
+.horizontalmenu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.horizontalmenu .current {
+    color: orange;
+}
+.wrapper {
+    max-width: 960px;
+    width: 95%;
+    margin: 0 auto;
+    padding: inherit;
+}
+.product_title {
+    margin-top: 100px; 
+    padding-top: 100px;
+}
+th:first-child, td:first-child{
+    text-align: left;
+}
+td:first-child{
+    font-weight: bold;
+}
+th {
+    color: gray;
+}
+td:nth-child(3){
+    background-color: bisque;
+    
+    
+}
+td:nth-child(2){
+    text-decoration: underline;
+    color: black;
+}
+td:nth-child(2) a{
+    text-decoration: underline;
+    color: black;
+}
+table {
+    height: 100px;
+    column-gap: 100px;
+    border-spacing: 0px;
+    width: 500px;
+}
+.prod_list a {
+    color: pink;
+}
+.input {
+    text-align: right;
+    width: 100%;
+}
+input[type=text] {
+  width: 50%;
+  
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input {
+    float:right;
+}
