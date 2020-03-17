@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Convert from Fahrenheit to Centigrade</title>
+      <button onclick="ryanFunction()">Try it</button>
+      
+      <script>
+       
+        function ryanFunction(){
+            
+        
+      
+           var temperature = prompt("Enter Fahrenheit temperature");
+           temperature = parseFloat(temperature);
+           if (temperature > -100 && temperature < 212) {
+               var celcius = (temperature - 32) * (5/9)
+               alert("Fahrenheit temperature is " + temperature + "\n\n\n" + "Celcius temperature is " + celcius)
+               
+           } 
+            else {
+               alert("You entered " + temperature + "\n" + "Entry must range from -100 to +212.")
+                ryanFunction()
+           }
+       
+    }
+    </script>
+</head>
+<body>
+    <main>
+    
+        <h1>Thanks for using the temperature converter</h1>
+    </main>
+</body>
+</html>
